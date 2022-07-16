@@ -10,8 +10,8 @@ body{font-family: Roboto;
 
 .link{text-decoration: none;}
 
-.header-list :focus,
-.header-list :hover {
+.header-list:focus,
+.header-list:hover{
     color: var(--acent-color--);
     cursor: pointer;}
 
@@ -150,11 +150,6 @@ body{font-family: Roboto;
     margin: -1px;}
 
 
-.list-btn :hover,
-.list-btn :focus
-{color: var(--second-btn-color--);
-background-color: var(--acent-color--);}
-
 .list-btn{font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -162,6 +157,11 @@ background-color: var(--acent-color--);}
     letter-spacing: 0.03em;
     color: var(--first-title-color--);
     cursor: pointer;}
+
+.list-btn:hover,
+.list-btn:focus{
+        color: var(--second-btn-color--);
+        background-color: var(--acent-color--);}
 
 .portfolio-title{font-weight: 700;
     font-size: 18px;
